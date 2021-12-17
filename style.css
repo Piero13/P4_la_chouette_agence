@@ -825,6 +825,13 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+.row {
+    display: flex;
+    justify-content: center;
+}
+.bloc-2-title {
+    width: 60%;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
