@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 
@@ -1059,7 +1059,8 @@ h4 {
     margin-bottom: 20px;
 }
 .quote figcaption {
-    color: black;
+    color: #575757;
+    text-align: center;
 }
 .quote-text {
     padding: 0;
