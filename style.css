@@ -1081,6 +1081,9 @@ h4 {
 .bloc-4-title h2 {
     width: 45%;
 }
+.col-sm-6 img {
+    width: 100%;
+}
 /* footer */
 .footer-social {
     margin: 20px auto;
