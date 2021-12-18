@@ -1043,6 +1043,7 @@ h4 {
 }
 
 /* modifications seo */
+/* bloc-2 */
 .bloc-2-title {
     display: flex;
     justify-content: center;
@@ -1071,6 +1072,7 @@ h4 {
     font-style: italic;
     text-align: center;
 }
+/* bloc-4 */
 .bloc-4-title {
     display: flex;
     justify-content: center;
@@ -1078,7 +1080,10 @@ h4 {
 .bloc-4-title h2 {
     width: 45%;
 }
-
+/* footer */
+.footer-social {
+    margin: 20px auto;
+}
 @media all and (max-width: 767px) {
     .bloc-2-title {
         margin-bottom: 0;
