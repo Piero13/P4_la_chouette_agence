@@ -1093,6 +1093,7 @@ h4 {
 .footer-title {
     color: #575757!important;
     font-size: 18px!important;
+    text-transform: uppercase;
 }
 .footer-social {
     margin: 20px auto;
