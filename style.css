@@ -1091,8 +1091,8 @@ h4 {
 /* bloc-7 */
 /* footer */
 .footer-title {
-    color: #575757;
-    font-size: 16px;
+    color: #575757!important;
+    font-size: 16px!important;
 }
 .footer-social {
     margin: 20px auto;
