@@ -1088,9 +1088,6 @@ h4 {
 .social-element {
     margin-bottom: 15px;
 }
-.social-name {
-    color: white;
-}
 @media all and (max-width: 767px) {
     .bloc-2-title {
         margin-bottom: 0;
