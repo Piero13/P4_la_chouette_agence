@@ -1044,6 +1044,9 @@ h4 {
 
 /* modifications seo */
 /* bloc-1 */
+.light-h1 {
+    font-size: 24px;
+}
 /* bloc-2 */
 .bloc-2-title {
     display: flex;
@@ -1087,6 +1090,9 @@ h4 {
 /* bloc-6 */
 /* bloc-7 */
 /* footer */
+.bloc-8 p {
+    color: #575757!important;
+}
 .footer-social {
     margin: 20px auto;
 }
