@@ -70,7 +70,7 @@
 				<h1 class="text-center hero-bloc-text tc-white">
 					Parlons web design !
 				</h1>
-				<p class="text-center mg-lg tc-white tight-width-whitespace">
+				<p class="text-center mg-lg tc-white tight-width-whitespace contact-txt">
 					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 				</p>
@@ -89,35 +89,35 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name" class="form-control" aria-required="true" aria-label="Saisissez vore nom"/>
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input id="email" class="form-control" type="email" aria-required="true" aria-label="Saisissez vore email"/>
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="input_504">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" type="text" aria-required="true" id="input_504" aria-label="Indiquez comment vous nous avez connus"/>
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea id="message" class="form-control" rows="4" cols="50" aria-required="true" aria-label="Saisissez vore message"></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" aria-label="Cliquez pour envoyer">
 						Envoyer
 					</button>
 				</form>
 			</div>
 			<div class="col-sm-6">
-				<p>
+				<p class="contact-txt">
 					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 				</p>
 			</div>
@@ -138,10 +138,10 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center white">
-					La chouette agence - Agence web basée à Lyon.<br>
-				</p>
-				<div class="row row-no-gutters social">
+				<h3 class="text-center footer-title">
+					La chouette agence - Agence web basée à Lyon.
+				</h3>
+				<div class="row row-no-gutters social footer-social">
 					<div class="col-sm-3">
 						<div class="text-center social-element">
 							<a class="social" aria-label="Lien vers Twitter" href="https://twitter.com/home?lang=fr" title="Twitter"><i class="fa fa-twitter icon-md"></i></a>

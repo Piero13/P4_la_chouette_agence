@@ -1042,7 +1042,7 @@ h4 {
     }
 }
 
-/* modifications seo */
+/* modifications seo accueil */
 /* bloc-1 */
 .light-h1 {
     font-size: 24px;
@@ -1077,7 +1077,6 @@ h4 {
     font-style: italic;
     text-align: center;
 }
-/* bloc-3 */
 /* bloc-4 */
 .bloc-4-title {
     display: flex;
@@ -1086,15 +1085,20 @@ h4 {
 .bloc-4-title h2 {
     width: 45%;
 }
-/* bloc-5 */
-/* bloc-6 */
-/* bloc-7 */
 /* footer */
 .footer-social {
     margin: 20px auto;
 }
 .social-element {
     margin-bottom: 15px;
+}
+/* modifications seo contact */
+.contact-txt {
+    text-align: center;
+    font-size: 16px;
+}
+label, .form-control {
+    font-size: 16px;
 }
 @media all and (max-width: 767px) {
     .bloc-2-title {
@@ -1120,5 +1124,8 @@ h4 {
     }
     .social-element {
         width: 80px;
+    }
+    .contact-txt {
+        margin-top: 40px;
     }
 }
