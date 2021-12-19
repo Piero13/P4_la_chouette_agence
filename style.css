@@ -780,7 +780,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #575757!important;
+    color: #333333!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1108,5 +1108,17 @@ h4 {
     }
     .bloc-4-title h2 {
         width: 80%;
+    }
+    .portfolio-img {
+        width: 100%;
+    }
+    .footer-social {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .social-element {
+        width: 80px;
     }
 }
