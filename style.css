@@ -775,12 +775,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #575757!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1043,6 +1043,7 @@ h4 {
 }
 
 /* modifications seo */
+/* bloc-1 */
 /* bloc-2 */
 .bloc-2-title {
     display: flex;
@@ -1073,6 +1074,7 @@ h4 {
     font-style: italic;
     text-align: center;
 }
+/* bloc-3 */
 /* bloc-4 */
 .bloc-4-title {
     display: flex;
@@ -1081,6 +1083,9 @@ h4 {
 .bloc-4-title h2 {
     width: 45%;
 }
+/* bloc-5 */
+/* bloc-6 */
+/* bloc-7 */
 /* footer */
 .footer-social {
     margin: 20px auto;
