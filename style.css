@@ -1093,9 +1093,14 @@ h4 {
     margin-bottom: 15px;
 }
 /* modifications seo contact */
+.contact-title {
+    font-weight: 700;
+    color: #333333!important;
+}
 .contact-txt {
     text-align: center;
     font-size: 16px;
+    color: #333333!important;
 }
 .footer-title {
     text-transform: uppercase;
