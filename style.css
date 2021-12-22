@@ -1131,6 +1131,7 @@ label, .form-control {
     }
     .portfolio-img {
         width: 100%;
+        height: auto;
     }
     .footer-social {
         display: flex;
