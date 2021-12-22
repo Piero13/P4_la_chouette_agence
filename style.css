@@ -819,10 +819,12 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.avif");
+    background-size:auto 100% !important;
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.avif");
+    background-size:auto 100% !important;
 }
 
 
