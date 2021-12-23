@@ -1130,8 +1130,8 @@ label, .form-control {
         width: 80%;
     }
     .portfolio-img {
-        width: 100%;
-        height: auto;
+        width: 100%!important;
+        height: auto!important;
     }
     .footer-social {
         display: flex;
